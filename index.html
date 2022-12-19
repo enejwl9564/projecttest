@@ -23,30 +23,70 @@
 <body>
   <section class="body-main">
     <video class="video" src="img/메인.mp4" id="vdo" autoplay muted loop></video>
-    <div class="body-font">
-      <b style="color: white; text-shadow: 2px 2px 2px gray;">대구날씨</b>
-    </div>
-    <div class="body-flex">
-      
-      <div class="body-img">
-        <i class="bi bi-sun" style="color: white; text-shadow: 2px 2px 2px gray;"></i>
+  </section>
+  <section>
+    <div class="cardlist">
+      <div class="body-font">
+        <b style="color: white; text-shadow: 2px 2px 2px gray;">지역날씨는?</b>
       </div>
-      <div class="body-cel">
-        <b style="color: white; text-shadow: 2px 2px 2px gray;">10℃</b>
+      <div class="card text-black bg-light mb-3">
+        <div class="card-left">
+          <div class="temp-img">
+            <div class="bi bi-sun"></div>
+          </div>
+          <span class="card-fir" style="padding-left: 5px; padding-top: 5px;">대구 중구 덕산동</span>
+          <span class="card-sec" style="padding-left: 5px;">대한민국</span>
+        </div>
+        <div class="card-right">
+          <span class="temp">-5˚</span>
+        </div>
       </div>
-    </div>
-    <div class="say">
-      <div><b style="color: white; text-shadow: 2px 2px 2px gray;">간단함이 훌륭함의 열쇠다.</b></div>
-      <div><b style="color: white; text-shadow: 2px 2px 2px gray;">-이소룡-</b></div>
+      <div class="card text-black bg-light mb-3">
+        <div class="card-left">
+          <div class="temp-img">
+            <div class="bi bi-sun"></div>
+          </div>
+          <span class="card-fir" style="padding-left: 5px; padding-top: 5px;">대구 중구 교동</span>
+          <span class="card-sec" style="padding-left: 5px;">대한민국</span>
+        </div>
+        <div class="card-right">
+          <span class="temp">-5˚</span>
+        </div>
+      </div>
+      <div class="card text-black bg-light mb-3">
+        <div class="card-left">
+          <div class="temp-img">
+            <div class="bi bi-sun"></div>
+          </div>
+          <span class="card-fir" style="padding-left: 5px; padding-top: 5px;">대구 달서구 상인동</span>
+          <span class="card-sec" style="padding-left: 5px;">대한민국</span>
+        </div>
+        <div class="card-right">
+          <span class="temp">-5˚</span>
+        </div>
+      </div>
+      <div class="card text-black bg-light mb-3">
+        <div class="card-left">
+          <div class="temp-img">
+            <div class="bi bi-sun"></div>
+          </div>
+          <span class="card-fir" style="padding-left: 5px; padding-top: 5px;">대구 달성군 화원읍</span>
+          <span class="card-sec" style="padding-left: 5px;">대한민국</span>
+        </div>
+        <div class="card-right">
+          <span class="temp">-5˚</span>
+        </div>
+      </div>
     </div>
   </section>
-  
+
+
   <header class="header">
     <section class="header-main">
       <div class="inner">
         <div class="main-banner">
           <!-- <span class="main-txt">JHweather</span> -->
-          <img src="img/JHweather.png" alt="">
+          <a href="index.html"><img src="img/JHweather.png" alt=""></a>
           <div class="search">
             <div class="input-group mb-3">
               <button class="btn btn-outline-secondary" type="button" id="button-addon1"
@@ -67,19 +107,19 @@
       <div class="offcanvas offcanvas-end w-10" tabindex="-1" id="offcanvas" data-bs-keyboard="false"
         data-bs-backdrop="false">
         <div class="offcanvas-header">
-          <i class="bi bi-person-circle"></i> 
-          <h6>로그인을 해주세요</h6>
+          <i class="bi bi-person-circle"></i>
+          <h3>로그인을 해주세요</h3>
           <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body px-0">
           <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
             <li class="nav-item">
               <a href="#" class="nav-link text-truncate"></a>
-                <a class="btn btn-primary" href="#" role="button">로그인</a>
+              <a class="btn btn-primary" href="#" role="button">로그인</a>
             </li>
             <li>
               <a href="#" data-bs-toggle="collapse" class="nav-link text-truncate"></a>
-                <a class="btn btn-primary" href="#" role="button">회원가입</a>
+              <a class="btn btn-primary" href="#" role="button">회원가입</a>
             </li>
             <li class="side-search">
               <div class="input-group mb-3">

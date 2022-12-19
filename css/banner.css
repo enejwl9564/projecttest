@@ -22,7 +22,7 @@
 .header>.header-main>.inner>.main-banner{
   
 }
-.header>.header-main>.inner>.main-banner>img{
+.header>.header-main>.inner>.main-banner>a>img{
   position: absolute;
   width: 300px;
   height: 100px;
